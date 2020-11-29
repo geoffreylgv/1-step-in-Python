@@ -22,7 +22,10 @@ nombre_vie = 10;
 start = 0;
 
 while nombre_u != nombre_a:
+    
+    
     nombre_tmp = input("Entrer votre nombre ");
+    
     nombre_u = int(nombre_tmp);
     if nombre_a > nombre_u:
         print("C'est plus");
@@ -30,7 +33,8 @@ while nombre_u != nombre_a:
         print("C'est moins");
     else:
         print("Bravo ! Vous avez gagné");
+    nombre_coup +=1;
 
-    
+print("\t===========Essaie en ", nombre_coup, "coups =====");    
 print("\t================Fin=======");
 

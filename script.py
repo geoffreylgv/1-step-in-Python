@@ -34,4 +34,23 @@ def is_palindrome(word):
         print("True")
     else:
         print("False")
-    
+word_0 = "omo"
+word_1 = "marvelcomicsunivers"
+word_2 = "cic"
+is_palindrome(word_2)
+print("All clear !! Go to next")
+"""
+second palindrome ~input number~
+"""
+is_palindrome_number(number)
+reverse_local = 0  
+tmp = number
+while(num > 0):  
+    numeric_local = num % 10  
+    reverse_local = reverse_local * 10 + numeric_local  
+    number = number // 10  
+if(tmp == reverse_local):  
+    print("True : palindrome number")  
+else:  
+    print("False : not palindrome number")  
+#end palindrome

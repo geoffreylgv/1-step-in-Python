@@ -11,7 +11,7 @@ Python pour debuter les algorithmes
 #updated at : __
 
 print("\t======================Starting small=================\n
-\t*******************************Python algorithmique*****************************\n")
+\t*******************************Python algorithmique****************************\n")
 
 """
 factorial ==> return the factorial of
